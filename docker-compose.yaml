@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  psql-client:
+    container_name: psql-container
+    environment:
+      PGDATABASE: 
+      PGHOST: 
+      PGPORT: 
+      PGUSER: 
+      PGPASSWORD: 
+    build:
+      context: .
+      dockerfile: Dockerfile
